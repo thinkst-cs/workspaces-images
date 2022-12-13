@@ -1,3 +1,7 @@
+# Canary Training 
+# sudo docker build -t canarytraining:desktop-dind -f dockerfile-kasm-ubuntu-jammy-desktop-dind-canary .
+
+
 ARG BASE_TAG="develop"
 ARG BASE_IMAGE="core-ubuntu-jammy"
 FROM kasmweb/$BASE_IMAGE:$BASE_TAG
